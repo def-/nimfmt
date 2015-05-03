@@ -1,3 +1,11 @@
+# This is a very simple try of getting a gofmt like tool for Nim. The idea is
+# to use the Nim compiler's parser and renderer. This seems to work reasonably
+# well. The next steps are:
+#
+# 1. Fix the formatted files so they work
+# 2. Improve the renderer's style
+# 3. Make the renderer configurable
+
 import os, strutils, compiler/parser, compiler/renderer
 
 let
